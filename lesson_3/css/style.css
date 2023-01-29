@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+[class*="__container"] {
+    color: teal;
+}
+* {
+    color: gray; 
+}
+div {
+    color: green;
+}
+a {
+    color: darkolivegreen;
+}
+text {
+    color: darkslategrey;
+}
+.header {
+    color: olive;
+}
+#h-1 {
+    color: saddlebrown;
+}
+div.who__text{
+    color: darkslateblue;
+}
+.early__title.early__text {
+    color: green;
+}
+.death__title {
+    color: sienna;
+}
+.death__text {
+    color: tomato;
+}
+.who__title,
+.who__text {
+    color: darkorange;
+}
+.early__text p {
+    color: blueviolet;
+}
+.death__title .death__text {
+    color: yellowgreen;
+}
+.early__text * {
+    color: darkmagenta;
+}
+.death__text > p {
+    color: aquamarine;
+}
+.death__text ~ p {
+    color: crimson;
+}
+.early__text + p {
+    color: black;
+}
