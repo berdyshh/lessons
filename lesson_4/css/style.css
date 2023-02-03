@@ -1,0 +1,211 @@
+/*--------------RESET----------*/
+@import url(reset.css);
+
+/*--------------FONTS----------*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&display=swap');
+
+/*----------FONTS(Manual)------*/
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-BlackItalic.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*----------------------BODY--------*/
+body {
+    font-family: "SF Pro Display", serif;
+    font-weight: 700;
+    color: #707070;
+}
+h1 {
+    font-family: "Karla", serif;
+    font-weight: 700;
+    color: #f49e00;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 4px 3px 6px #000, -2px -2px 3px #7a7a7a;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+}
+span {
+    font-family: "SF Pro Display", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #f49e00;
+    font-size: 30px;
+    text-shadow: 3px 3px 6px #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+
+/*--------HEADER------*/
+.header {
+
+}
+.header__container {
+}
+.header__title {
+}
+.header__image {
+}
+.header__menu {
+}
+.menu {
+    font-family: "Cabin", serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #545454;
+}
+.menu__list {
+}
+.menu__item {
+    text-align: center;
+}
+.menu__link {
+    color: #707070;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.menu__link:hover {
+    text-decoration: underline;
+    color: #f49e00
+}
+
+
+
+
+/*--------MAIN------*/
+main {
+    overflow: hidden;
+}
+.page {
+}
+.page__container {
+}
+.page__early {
+}
+.early {
+}
+.early__container {
+}
+.early__title {
+}
+.early__image {
+}
+.early__text {
+    font-size: 18px;
+    line-height: 138%;
+    text-indent: 20px;
+}
+.page__career {
+}
+.career {
+}
+.career__container {
+}
+.career__title {
+}
+.career__image {
+}
+.career__text {
+    font-size: 18px;
+    line-height: 138%;
+    text-indent: 20px;
+}
+.page__musical-style {
+}
+.style-musical {
+}
+.style-musical__container {
+}
+.style-musical__title {
+}
+.style-musical__image {
+}
+.style-musical__text {
+    font-size: 18px;
+    line-height: 138%;
+    text-indent: 20px;
+}
+.page__life-personal {
+}
+.personal-life {
+}
+.personal-life__container {
+}
+.personal-life__title {
+}
+.personal-life__image {
+}
+.personal-life__text {
+    font-size: 18px;
+    line-height: 138%;
+    text-indent: 20px;
+}
+.page__brother {
+}
+.brother {
+}
+.brother__container {
+}
+.brother__title {
+}
+.brother__image {
+}
+.brother__text {
+    font-size: 18px;
+    line-height: 138%;
+    text-indent: 20px;
+}
+
+
+/*--------FOOTER------*/
+.footer {
+    font-family: "Cabin", serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+}
+.footer__container {
+}
+.footer__menu {
+}
+.menu-footer {
+    text-align: center;
+}
+.menu-footer__contacts {
+}
+.menu-footer__list {
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+    color: #707070;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #545454;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.menu-footer__link:hover{
+    text-decoration: underline;
+    color: #f49e00;
+}
+
+
