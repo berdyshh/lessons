@@ -44,7 +44,7 @@ body {
 .page__main-image {
     margin-bottom: 80px;
 }
-.page__main-image img {
+img {
     max-width: 100%;
 }
 
