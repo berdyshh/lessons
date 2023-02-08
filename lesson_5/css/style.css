@@ -1,0 +1,100 @@
+@import url(reset.css);
+
+body {
+    font-family: "Poppins";
+    font-weight: 300;
+    color: #6C757D;
+    background-color: #E5E5E5;
+}
+
+
+/*--------PAGE------*/
+.page {
+}
+.page__container{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.page__main-first {
+    max-width: 816px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.first-main {
+
+}
+.first-main__title {
+    max-width: 400px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+.first-main__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.first-main__text p {
+    margin-bottom: 40px;
+}
+
+.page__main-image {
+    margin-bottom: 80px;
+}
+.page__main-image img {
+    max-width: 100%;
+}
+
+.page__main-second {
+    max-width: 816px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.second-main {
+}
+.second-main__title {
+    max-width: 605px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+.second-main__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.second-main__text p {
+    margin-bottom: 40px;
+}
+.page__secondary-images {
+    margin-bottom: 80px;
+}
+.images-secondary {
+}
+.images__secondary-first {
+    font-size: 0;
+}
+.image02 {
+    margin-right: 30px;
+    max-width: 100%;
+}
+.image03 {
+    max-width: 100%;
+}
+.page__main-third {
+    max-width: 816px;
+    margin: 0 auto;
+}
+
+.third-main {
+}
+.third-main__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.8;
+}
