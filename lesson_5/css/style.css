@@ -44,6 +44,9 @@ body {
 .page__main-image {
     margin-bottom: 80px;
 }
+.page__main-image img {
+    max-width: 100%;
+}
 
 .page__main-second {
     max-width: 816px;
