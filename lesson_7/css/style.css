@@ -55,6 +55,7 @@ body {
     padding: 145px 0px;
 }
 .page__text-price {
+    max-width: 155px;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.3;
