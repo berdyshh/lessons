@@ -22,7 +22,7 @@ body {
 
 /*---------------HEADER------------*/
 .header {
-    background: url(../img/background.jpg) center / cover no-repeat;
+    background: url(../img/background.jpg) center / cover no-repeat, rgba(3, 57, 74, 0.955);
 }
 .header__container {}
 .header__content {
