@@ -47,7 +47,7 @@ body {
 /*-----------------PAGE------------*/
 .page {
     font-family: 'Inter', sans-serif;
-    background: url(../img/speaker.png) 75% 50% no-repeat, url(../img/bg-gradient-1.png) 100% 100% no-repeat, url(../img/bg-gradient-2.png) 100% 100% no-repeat;
+    background: url(../img/speaker.png) 75% 50% / contain no-repeat, url(../img/bg-gradient-1.png) 100% 100% no-repeat, url(../img/bg-gradient-2.png) 100% 100% / contain no-repeat;
 }
 .page__container {
 }
@@ -55,7 +55,6 @@ body {
     padding: 145px 0px;
 }
 .page__text-price {
-    max-width: 155px;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.3;
