@@ -280,7 +280,6 @@ body {
 }
 .footer__links {
     display: inline-block;
-    margin-bottom: 60px;
 }
 .footer__links p:not(:last-child) {
     margin-bottom: 20px;
