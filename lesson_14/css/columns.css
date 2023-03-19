@@ -1,0 +1,179 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+[class*="__container"] {
+    margin: 0 auto;
+    max-width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------------------HEADER----------------*/
+.header {
+}
+.header__container {
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 500;
+    padding: 100px 0px 45px 0px;
+}
+.header__title {
+    color: #495057;
+    font-weight: 500;
+    line-height: 2.08;
+}
+.header__title .header__link {
+    position: relative;
+    padding-right: 15px;
+}
+.header__title .header__link::after {
+    content: "+";
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    font-weight: 500;
+    line-height: 2.08;
+}
+.header__items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.header__item {
+}
+.header__item .header__link {
+    font-weight: 500;
+    line-height: 2.08;
+    color: rgba(73, 80, 87, 0.5);
+    transition: color 0.3s;
+}
+.header__item .header__link.active,
+.header__item .header__link:hover {
+    color: #495057;
+}
+
+/*-------------------------PAGE----------------*/
+.page {
+}
+.page__articles {
+}
+.articles {
+}
+.articles__container {
+}
+.articles__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px 60px;
+    row-gap: 45px;
+}
+.articles__column {
+    padding: 0px 15px;
+    flex: 0 0 25%;
+}
+.articles__item {
+}
+.item-articles {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+.item-articles__image {
+}
+.item-articles__image img {
+    max-width: 100%;
+    transition: transform 0.7s;
+}
+.item-articles:hover img {
+    transform: scale(1.05);
+}
+.item-articles__image:not(:last-child) {
+    margin-bottom: 30px;
+}
+.item-articles__button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 3px 12px;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 2.5;
+    color: #F8F9FA;
+    border-radius: 3px;
+    background-color: rgba(33, 37, 41, 0.3);
+    text-transform: uppercase;
+    transition: background-color 0.3s ;
+}
+.item-articles__button:hover {
+    background-color: rgba(33, 37, 41, 0.509);
+}
+.articles__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.articles__date a{
+}
+.articles__date a:hover {
+    text-decoration: underline;
+}
+.articles__link {
+    font-weight: 700;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+.articles__link:hover {
+    color: #CCD5AE;
+}
+.articles__text {
+}
+.articles__author {
+    padding-top: 15px;
+    border-top: 1px solid #E5E5E5;
+}
+.articles__author a:hover {
+    text-decoration: underline;
+}
+
+.articles__button {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.articles__button a{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.08;
+    background-color: #212529;
+    border-radius: 3px;
+    color: #F8F9FA;
+    padding: 8px 50px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.articles__button a:hover {
+    background-color: #F8F9FA;
+    color: #212529;
+    border: 1px solid #212529;
+}
