@@ -361,7 +361,7 @@ body {
 
 .items-crisp {
     display: flex;
-    column-gap: 25px;
+    column-gap: 100px;
     justify-content: space-between;
 }
 .items-crisp__button {
