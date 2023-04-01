@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="page">
+            <div class="page__container">
+                <div class="page__body">
+                    <form class="form" method="GET" enctype="multipart/form-data" action="#">
+                        <h1 class="form__title">Billing Details</h1>
+                        <div class="form__body">
+                            <div class="form__line">
+                                <input required autocomplete="off" minlength="2" name="username" placeholder="First Name*" value="" type="text" class="form__input">
+                            </div>
+                            <div class="form__line">
+                                <input required autocomplete="off" minlength="2" name="username" placeholder="Last Name*" value="" type="text" class="form__input">
+                            </div>
+                            <div class="form__line">
+                                <input required autocomplete="off" name="address" placeholder="Address*" value="" type="text" class="form__input">
+                            </div>
+                            <div class="form__line">
+                                <input autocomplete="off" name="address-second" placeholder="Address line 2" value="" type="text" class="form__input">
+                            </div>
+                            <div class="form__line">
+                                <select name="country" class="form__selected">
+                                    <option selected value="country" class="form__option">Country*</option>
+                                    <option value="belgium">Belgium</option>
+                                    <option value="germany">Germany</option>
+                                    <option value="italy">Italy</option>
+                                    <option value="netherlands">Netherlands</option>
+                                    <option value="poland">Poland</option>
+                                    <option value="portugal">Portugal</option>
+                                    <option value="spain">Spain</option>
+                                    <option value="sweden">Sweden</option>
+                                    <option value="ukraine">Ukraine</option>
+                                </select>
+                            </div>
+                            <div class="form__line">
+                                <input autocomplete="off" minlength="3" name="city" placeholder="City/Town*" value="" type="text" class="form__input">
+                            </div>
+                            <div class="form__line">
+                                <input autocomplete="off" name="postcode" placeholder="Postcode / ZIP*"  type="number" class="form__input">
+                            </div>
+                            <div class="form__line">
+                                <input autocomplete="off" name="phone" placeholder="Phone*" value="" type="tel" class="form__input">
+                            </div>
+                            <div class="form__row">
+                                <textarea autocomplete="off" name="information" placeholder="Additional information" id="" class="form__area"></textarea>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <div class="checkbox__items">
+                                <input type="checkbox" checked class="checkbox__input" autocomplete="off" name="check" id="account">
+                                <label class="checkbox__label" for="account">Creat Account</label>
+                            </div>
+                            <div class="checkbox__items">
+                                <input type="checkbox" class="checkbox__input" autocomplete="off" name="check" id="ship">
+                                <label class="checkbox__label" for="ship">Ship to a different address?</label>
+                            </div>
+                        </div>
+                        <h2 class="form__title-second">Apply Coupon to get discount!</h2>
+                        <div class="form__content">
+                            <div class="form__coupon coupon-form">
+                                <input autocomplete="off" minlength="2" name="coupone-code" placeholder="Coupon code" value="" type="text" class="coupon-form__input">
+                            </div>
+                            <button type="submit" class="form__button">Apply Code</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="page__crisp crisp">
+                <div class="crisp__body">
+                    <form class="crisp__form form-crisp" method="GET" enctype="multipart/form-data" action="#">
+                        <h1 class="form-crisp__title">Shipping Address</h1>
+                        <div class="form-crisp__body">
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="email-01" >Email Address</label>
+                                <input required autocomplete="off" minlength="2" name="mail" placeholder="roni_cost@example.com" value="" type="email" id="email-01" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="password-01" >Password</label>
+                                <input autocomplete="off" minlength="2" id="password-01" name="password" placeholder="******************" value="" type="password" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="zipcode-01" >Zip/Postal Code</label>
+                                <input autocomplete="off" minlength="2" id="zipcode-01" name="zipcode" placeholder="" value="" type="number" class="form-crisp__input">
+                            </div>
+                        </div>
+                        <div class="form-crisp__text">You already have an account with us. Sign in or continue as guest.
+                        </div>
+                        <div class="form-crisp__items form-crisp__items_padding">
+                            <button type="submit" class="form-crisp__button">Login</button>
+                            <div class="form-crisp__text form-crisp__text_color"><a href="#" class="form-crisp__link" >Forgot Your Password?</a></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="crisp__body crisp__body_padding">
+                    <form class="crisp__form form-crisp" method="GET" enctype="multipart/form-data" action="#">
+                        <div class="form-crisp__body">
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="first-name">First Name <span>*</span></label>
+                                <input required autocomplete="off" minlength="2" name="first-name" placeholder="" value="" type="text" id="first-name" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label  class="form-crisp__label" for="last-name">Last Name <span>*</span></label>
+                                <input required autocomplete="off" minlength="2" id="last-name" name="last-name" placeholder="" value="" type="text" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="company">Company</label>
+                                <input autocomplete="off" minlength="2" id="company" name="Company" placeholder="" value="" type="number" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="address-02">Street Address <span>*</span></label>
+                                <input required autocomplete="off" minlength="2" id="address-02" name="Address" placeholder="" value="" type="text" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="address-03"></label>
+                                <input autocomplete="off" minlength="2" id="address-03" name="Address" placeholder="" value="" type="text" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="address-04"></label>
+                                <input autocomplete="off" minlength="2" id="address-04" name="Address" placeholder="" value="" type="text" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="country">Country <span>*</span></label>
+                                <input required autocomplete="off" minlength="2" id="country" name="country" placeholder="" value="" type="text" class="form-crisp__input">
+                            </div>
+                            <div class="form-crisp__line">
+                                <label class="form-crisp__label" for="country">State/Province <span>*</span></label>
+                                <select name="country" class="form-crisp__selected">
+                                    <option selected value="country" class="form-crisp__option">Please select a region, state or province</option>
+                                    <option value="vinnytska">Vinnytska</option>
+                                    <option value="dniprovska">Dniprovska</option>
+                                    <option value="kyivska">Kyivska</option>
+                                    <option value="lvivska">Lvivska</option>
+                                    <option value="odesska">Odesska</option>
+                                    <option value="poltavska">Poltavska</option>
+                                    <option value="kharkivska">Kharkivska</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-crisp__content">
+                            <h2 class="form-crisp__title">Shipping Methods</h2>
+                            <div class="form-crisp__radio radio">
+                                <div class="radio__items radio__items_width">
+                                    <div class="radio__item">
+                                        <input checked class="radio__input" id="price-5" name="price" type="radio">
+                                        <label class="radio__label" for="price-5">$5.00</label>
+                                    </div>
+                                    <div class="radio__content">
+                                        <div class="radio__text">Fixed</div>
+                                        <div class="radio__text">Flat Rate</div>
+                                    </div>
+                                </div>
+                                <div class="radio__items">
+                                    <div class="radio__item">
+                                        <input class="radio__input" id="price-10" name="price" type="radio">
+                                        <label class="radio__label" for="price-10">$10.00</label>
+                                    </div>
+                                    <div class="radio__content">
+                                        <div class="radio__text">Table Rate</div>
+                                        <div class="radio__text">Best Way</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-crisp__items items-crisp">
+                                <button class="items-crisp__button">Next</button>
+                                <div class="items-crisp__text"><a href="#" class="items-crisp__link">Back</a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
